@@ -1,9 +1,39 @@
-export default function App() {
+export default function Board() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-green-500">
-        Tic Tac Toe
-      </h1>
+      <div>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+      </div>
+      <div>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+      </div>
+      <div>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 w-12 h-12 m-1 rounded-md text-lg font-semibold">
+          X
+        </button>
+      </div>
     </>
   );
 }
