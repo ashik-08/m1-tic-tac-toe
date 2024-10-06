@@ -1,10 +1,9 @@
-function App() {
-
+export default function App() {
   return (
     <>
-      <h1 className="text-3xl text-green-500">Vite + React</h1>
+      <h1 className="text-3xl font-bold underline text-green-500">
+        Tic Tac Toe
+      </h1>
     </>
-  )
+  );
 }
-
-export default App
